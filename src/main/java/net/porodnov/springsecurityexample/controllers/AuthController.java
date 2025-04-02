@@ -1,9 +1,9 @@
 package net.porodnov.springsecurityexample.controllers;
 
 import net.porodnov.springsecurityexample.config.jwt.JwtUtils;
-import net.porodnov.springsecurityexample.pojo.JwtResponse;
-import net.porodnov.springsecurityexample.pojo.LoginRequest;
-import net.porodnov.springsecurityexample.pojo.SignUpRequest;
+import net.porodnov.springsecurityexample.dto.JwtResponse;
+import net.porodnov.springsecurityexample.dto.LoginRequest;
+import net.porodnov.springsecurityexample.dto.SignUpRequest;
 import net.porodnov.springsecurityexample.services.RegistrationService;
 import net.porodnov.springsecurityexample.services.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;

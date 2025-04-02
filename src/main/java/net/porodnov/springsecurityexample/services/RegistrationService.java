@@ -1,8 +1,8 @@
 package net.porodnov.springsecurityexample.services;
 
 import net.porodnov.springsecurityexample.models.User;
-import net.porodnov.springsecurityexample.pojo.MessageResponse;
-import net.porodnov.springsecurityexample.pojo.SignUpRequest;
+import net.porodnov.springsecurityexample.dto.MessageResponse;
+import net.porodnov.springsecurityexample.dto.SignUpRequest;
 import net.porodnov.springsecurityexample.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;

@@ -1,4 +1,4 @@
-package net.porodnov.springsecurityexample.pojo;
+package net.porodnov.springsecurityexample.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
